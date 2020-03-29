@@ -10,7 +10,7 @@
     <version>0.1-SNAPSHOT</version>
     <modules>
         <module>diamond-spring-boot-starter</module>
-        <module>Spring-Boot-Sample</module>
+        <module>spring-boot-sample</module>
         <module>diamond-core</module>
     </modules>
     <properties>

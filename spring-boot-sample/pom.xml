@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.dmq</groupId>
-    <artifactId>Spring-Boot-Sample</artifactId>
+    <artifactId>spring-boot-sample</artifactId>
 
     <dependencies>
 

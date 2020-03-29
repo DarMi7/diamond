@@ -1,10 +1,9 @@
 package com.dm.sample.controller;
 
-import com.dm.sample.entity.pojodo.User;
 import com.dm.sample.entity.dto.ApiResponse;
+import com.dm.sample.entity.pojodo.User;
 import com.dm.sample.mapper.UserMapper;
 import com.dm.spring.annotation.EnableDmAsync;
-import com.dm.util.JedisUtil;
 import java.util.Random;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.transaction.annotation.Transactional;
