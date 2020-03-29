@@ -1,0 +1,35 @@
+{
+  "groups": [
+    {
+      "sourceType": "com.dm.properties.DmProperties",
+      "name": "com.dm.config",
+      "type": "com.dm.properties.DmProperties"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.dm.properties.DmProperties",
+      "name": "dm.config.use-jdk-proxy",
+      "description": "是否使用jdk动态代理",
+      "type": "java.lang.Boolean"
+    },
+    {
+      "sourceType": "com.dm.properties.DmProperties",
+      "name": "dm.config.async-tables",
+      "description": "需要同步的数据库表名称，以英文逗号隔开",
+      "type": "java.lang.Object"
+    },
+    {
+      "sourceType": "com.dm.properties.DmProperties",
+      "name": "dm.config.redis-address",
+      "description": "redis连接地址",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.dm.properties.DmProperties",
+      "name": "dm.config.expire-seconds",
+      "description": "redis key的过期时间(s), -1 表示永不过期",
+      "type": "java.lang.Integer"
+    }
+  ]
+}
