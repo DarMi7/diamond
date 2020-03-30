@@ -1,5 +1,8 @@
 package com.dm.disruptor;
 
+/**
+ * @author zy
+ */
 public abstract class ValueWrapper<T> {
 
     private T value;

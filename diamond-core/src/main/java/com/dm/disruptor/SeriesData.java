@@ -3,6 +3,9 @@ package com.dm.disruptor;
 import com.dm.core.SqlParserTask;
 import java.util.List;
 
+/**
+ * @author zy
+ */
 public class SeriesData {
 
     private List<SqlParserTask> tasks;
