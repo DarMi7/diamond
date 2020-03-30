@@ -15,7 +15,7 @@
 一个数据流管道类似于NIO的pipeline，对前面从disruptor中获取到的任务进行解析,解析完成之后投递到阻塞队列中。  
 4.阻塞队列数据和redis同步  
 采用线程池获取任务的形式，从阻塞队列中阻塞获取任务，将已经解析好的redis数据同步到指定的redis中。  
-![Image text](https://github.com/DarMi7/diamond/blob/master/img/%7D5%5D50K_V%5B_10XN%246S8%5BZXWV.png)
+![Image text](https://github.com/DarMi7/diamond/blob/master/diamond-spring-boot-starter/img/%7D5%5D50K_V%5B_10XN%246S8%5BZXWV.png)
 
 #### 规划展望
 目前还处于开发阶段，还有更新解析没有完成。未来可能将会加入mq将服务解耦出来，适应那些任务量大的需求，减轻对我们业务逻辑的影响。
