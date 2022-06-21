@@ -13,7 +13,7 @@
     <groupId>com.dm</groupId>
     <artifactId>dm-spring-boot-starter</artifactId>
     <properties>
-        <mysql.connector.version>5.1.5</mysql.connector.version>
+        <mysql.connector.version>8.0.28</mysql.connector.version>
         <dm.core.version>0.1-SNAPSHOT</dm.core.version>
     </properties>
     <dependencies>
