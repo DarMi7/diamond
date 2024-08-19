@@ -5,6 +5,13 @@
  Simple and practical redis and mysql data synchronization framework.  
  简单实用的redis和mysql的数据同步框架
 #### 软件架构
+##### 逻辑架构
+![Image text](https://github.com/DarMi7/diamond/blob/4908903ec0b8a21c52dd6aafd7851642c42d90a6/diamond-spring-boot-starter/img/5303a21dbd8e1e12749b77b0cfb0b37b.png)  
+##### 整体架构
+![Image text](https://github.com/DarMi7/diamond/blob/4908903ec0b8a21c52dd6aafd7851642c42d90a6/diamond-spring-boot-starter/img/7fd8f3631303a2f0710b3e65dff92d50.png)
+##### disruptor设计
+![Image text](https://github.com/DarMi7/diamond/blob/4908903ec0b8a21c52dd6aafd7851642c42d90a6/diamond-spring-boot-starter/img/f1bb6ee5ef496041a4c69de9273032d2.png)
+##### pipline设计
 ![Image text](https://raw.githubusercontent.com/DarMi7/diamond/master/diamond-spring-boot-starter/img/%7D5%5D50K_V%5B_10XN%246S8%5BZXWV.png)  
 本着不重复造轮子的原则，该框架借鉴了前辈们架构思想和组件。  
 * 拦截  
