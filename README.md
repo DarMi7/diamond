@@ -32,4 +32,7 @@ dm.config.async-tables: user,t_order_1
 @EnableDmAsync  
 详细可以参见sample项目
 
+#### 技术博客
+https://blog.csdn.net/qq_28175019/article/details/104569258
+
 
